@@ -15,6 +15,8 @@ typedef struct Tasks {
 	char *cmd;
 } Task;
 
+// use LinkedList implementation from my other repo: https://github.com/Nicolas-Reyland/C-List-Implementation
+// add the "LinkedList.h" file in the cwd (or pwd) or link its directory as an argument with whatever compiler you are using
 typedef Task LINKED_LIST_TYPE;
 #include "LinkedList.h"
 
